@@ -24,7 +24,11 @@ section {
     padding: 100px 80px;
 }
 
-
+p {
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+}
 
 .hero {
     position: relative;
