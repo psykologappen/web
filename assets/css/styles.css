@@ -25,9 +25,10 @@ section {
 }
 
 p {
+    font-family: 'Raleway', sans-serif;
     color: #fff;
-    position: fixed;
-    bottom: 0px;
+   font-weight: 80;
+   
 }
 
 .hero {
@@ -49,11 +50,21 @@ p {
     
 }
 
+.apply__button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
 
 
-
-
-
+#application{
+    bottom: 80px;
+    position: fixed;
+}
 
 
 
@@ -63,6 +74,8 @@ p {
     animation: 0.9 slidefade 0.9s forwards;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: -60px;
     max-width: 600px;
     
     
